@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecario{
+    width: 100%;
+    background: gray;
+}
+.logo{
+    width: 12%;
+    position: relative;
+    left: 20;
+
+}
+
+.titulo-logo{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: end;
+    list-style-type: none
+    
+
+}
+
+
+.container li{
+    position: relative;
+    bottom: 90;
+    right: 25px;
+    text-align: center;
+    margin-top: 10px;
+    padding-right: 14px;
+
+}
+
+.link{
+    font-size: 30px;
+}
+
+.txt{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.atendente{
+    position: relative;
+    left: 170px;
+    width: 75%;
+}
+
+.roda-pe{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    background: gray;
+
+}
+.roda-texto{
+    font-size: 20;
+    padding: 15px;
+}
+.logo-roda{
+    justify-content: end;
+    width: 10%;
+    position: absolute;
+    left: 1000px;
+    top: 900;
+}
+
+.titulo-rodape{
+    position: absolute;
+    left: 1000px;
+    top: 1000;
+}
+
+/* fim da primeira pagina */
+
+.produtos{
+    float: left;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px ;
+    padding-top: 50px;
+    list-style-type: none
+    
+
+}
+
+.produto-1, .produto-2, .produto-3{
+    width: 1000;
+    height: 320px;
+
+
+}
+
+.produtos li{
+    float: left;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+}
+
+.img-prod{
+    width: 80%;
+}
+
+.desc{
+    margin-right: 8%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+.botao{
+    text-align: center;
+    font: 25;
+    text-transform: uppercase;
+    color: gray;
+}
+/* cadastro */
+.nome, .email, .telefone, .idade .senha .login-user {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.label-padrao{
+    padding-right: 10px;
+}
+.input-number{
+    width: 7px;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+}
+
+.input-padrao{
+   display: block;
+   width: 50%;
+   margin-bottom: 20px;
+   padding: 10px 25px;
+   margin-left: 2px;
+}
+
+.endereco-rua, .endereco-cidade{
+    display: inline;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+.complemento, .cep{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+.input-rua-bairro, .input-senha, .input-login{
+    width: 25%;
+    margin-bottom: 10px;
+    padding: 5px 13px;
+}
+
+
+
+
+
+
+
+
