@@ -20,13 +20,13 @@
             </div>
         </header>
         <main>
-            <h1> cadastro</h1>
+            <h1 class="titulo-form"> Cadastro de Clientes</h1>
 
             <form action="">
 
                 <div class="dados-pessoais">
 
-                    <h2 class="titulo">Dados Pessoais</h2>
+                    <h2 class="titulo-dados">Dados Pessoais</h2>
                     <br>
 
                     <div class="nome">
@@ -57,7 +57,7 @@
                 </div>
 
                 <div class="endereco">
-                    <h2>Endereço</h2>
+                    <h2 class="titulo-endereco">Endereço</h2>
                     <br>
                     <div class="endereco-rua">
                         <label class="label-padrao" for="nome-rua">Rua: </label>
@@ -99,8 +99,10 @@
 
                     <label class="label-padrao" for="password">Digite sua senha novamente </label>
                     <input type="text" id="password" class="input-senha"> 
-
                 </div>
+            
+
+                        <input type="submit" value="Concluir o cadastro" class="botao-compra">
 
             </form>
             <br>
@@ -111,9 +113,32 @@
                 <p class="roda-texto">Endereço: Avenida Bernardo Sayão 176  <br>Centro, Ceres - GO, 76300-000 <p>
                 <p class="roda-texto">WhatsApp: (62) 98528-7539</p>
                 <p class="roda-texto">Telefone: 3397-1515<p>
-                <img class="logo-roda" src="logo.png" alt="Logo da empresa" >
-                <h2 class="titulo-rodape"> Future Vision</h2>
                 <p class="roda-texto">Twitter: @Futurevision</p>
+                
+                <div class="tabela">
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Dia</th>
+                                <th>Horário</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Segunda-Sexta</td>
+                                <td>08h~20h</td>
+                            </tr>
+                            <tr>
+                                <td>Sabado</td>
+                                <td>08h~12h</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5">Horário de funcionamento</td> 
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 		</footer>
     </body>

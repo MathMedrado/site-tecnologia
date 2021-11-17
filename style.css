@@ -60,7 +60,7 @@
     flex-direction: column;
     width: 100%;
     height: 250px;
-    background: gray;
+    background: #566573;
 
 }
 .roda-texto{
@@ -81,6 +81,30 @@
     top: 1000;
 }
 
+
+.tabela{
+    display: flex;
+    align-self: end;
+    position: relative;
+    bottom: 180px;
+    right: 20px;
+
+}
+
+table{
+    margin: 2% 20px 2% 2%;
+}
+thead{
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+td, th{
+    border: 1px #B2BABB  solid;
+    padding: 2px 15px;
+}
+
+
 /* fim da primeira pagina */
 
 .produtos{
@@ -95,7 +119,7 @@
 
 }
 
-.produto-1, .produto-2, .produto-3{
+.produto-1, .produto-2, .produto-3, .ds{
     width: 1000;
     height: 320px;
 
@@ -116,11 +140,9 @@
 
 }
 
-.img-prod{
-    width: 80%;
-}
-
 .desc{
+    position: relative;
+    top: 50px;
     margin-right: 8%;
     margin-bottom: 5%;
     font-size: 20px;
@@ -129,6 +151,10 @@
     margin-left: 10px;
 
 }
+
+
+
+
 .botao{
     text-align: center;
     font: 25;
@@ -136,12 +162,22 @@
     color: gray;
 }
 /* cadastro */
+
+.titulo-form{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .nome, .email, .telefone, .idade .senha .login-user {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
+.titulo-endereco, .titulo-dados, .user-create{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 
 
 .label-padrao{
@@ -150,7 +186,7 @@
 .input-number{
     width: 7px;
     margin-bottom: 10px;
-    padding: 5px 20px;
+    padding: 5px 22px;
 }
 
 .input-padrao{
@@ -183,8 +219,134 @@
 
 
 
+.botao-submit{
+    padding: 8px 30px 8px 30px;
+    margin-top: 25px;
+    margin-left: 42%;
+    background-color: yellow;
+}
+
+/* 3ds*/
+
+.produtos-list{
+    float: left;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px ;
+    padding-top: 50px;
+    list-style-type: none
+    
+
+}
 
 
+.produtos-list li{
+    float: left;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 
+}
+
+.titilo-produto{
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.img-prod{
+    width: 80%;
+}
+
+
+.preco{
+    padding-top: 30px;
+
+    font-size: 20px;
+
+
+}
+
+ .ds{
+    width: 1000;
+    height: 320px;
+
+}
+
+.conta{
+    display: flex;
+    position: relative;
+    top: 320px;
+    right: 890px;
+}
+
+.botao-compra{
+    position: relative;
+    left: 215;
+    top: 80px;
+    padding: 8px 30px 8px 30px;
+    background-color: yellow;
+}
+/*Notebook */
+
+.conta-note{
+    display: flex;
+    position: relative;
+    top: 360px;
+    right: 890px;
+}
+
+
+.botao-compra-note{
+    position: relative;
+    bottom: 13px;
+    left: 570px;
+    padding: 8px 30px 8px 30px;
+    background-color: yellow;
+}
+
+.desc-note{
+    margin-right: 8%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+.preco-note{
+    position: relative;
+    bottom: 28px;
+    font-size: 20px;
+}
+
+/*Smartphone*/
+
+.preco-smart{
+    position: relative;
+    bottom: 28px;
+    font-size: 20px;
+}
+
+.botao-compra-smart{
+    position: relative;
+    left: 210px;
+    padding: 8px 30px 8px 30px;
+    background-color: yellow;
+}
+
+.conta-smart{
+    display: flex;
+    position: relative;
+    top: 310px;
+    right: 890px;
+}
 
 
