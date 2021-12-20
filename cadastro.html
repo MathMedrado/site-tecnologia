@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title>Loja Future Vision</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="cabecario">
+
+                <h1><img class="logo" src="logo.png" alt="Logo da empresa" ></h1>
+                <h2 class="titulo-logo"> Future Vision</h2>
+
+                <nav>
+                    <ul class="container">
+                        <li class="link"><a href="index.html">Home</a></li>
+                        <li class="link"><a href="produtos.html">Produtos</a></li>
+                        <li class="link"><a href="cadastro.html">Cadastro</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h1 class="titulo-form"> Cadastro de Clientes</h1>
+
+            <form action="">
+
+                <div class="dados-pessoais">
+
+                    <h2 class="titulo-dados">Dados Pessoais</h2>
+                    <br>
+
+                    <div class="nome">
+                        <label class="label-padrao" for="nome-completo">Nome Completo </label>
+                        <input type="text" id="nome-completo" class="input-padrao"> 
+                    </div>
+
+                    <div class="nascimento">
+                        <label for="birthday">Data de Nascimento:</label>
+                        <input type="date" id="birthday" name="birthday" class="input-padrao">
+                    </div>
+
+                    <div class="email">
+                        <label class="label-padrao"  for="emailusr" > Endereço de email </label>
+                        <input  type="email" id="emailusr" class="input-padrao" required placeholder="example@gmail.com"> 
+                    </div>
+
+                    <div class="telefone">
+                        <label class="label-padrao"  for="telefone"> Informe o número do DDD e o Celular </label>
+                        <input type="tel" id="telefone" name="telefone" class="input-padrao" required placeholder="99-99999-9999" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"> 
+                    </div>
+
+                    <div class="CPF">
+                        <label class="label-padrao"  for="cpf" > CPF </label>
+                        <input  type="text" id="cpf" class="input-padrao" required placeholder="99.999.999-99"> 
+                    </div>
+
+                </div>
+
+                <div class="endereco">
+                    <h2 class="titulo-endereco">Endereço</h2>
+                    <br>
+                    <div class="endereco-rua">
+                        <label class="label-padrao" for="nome-rua">Rua: </label>
+                        <input type="text" id="nome-rua" class="input-rua-bairro">
+
+                        <label class="label-padrao" for="nome-bairro">    Bairro: </label>
+                        <input type="text" id="nome-bairro" class="input-rua-bairro"> 
+                    </div>
+
+                    <div class="complemento">
+                        <label class="label-padrao" for="complementar">Informações complementares: </label>
+                        <input type="text" id="complementar" class="input-padrao"> 
+                    </div>
+
+                    <div class="endereco-cidade">
+                        <label class="label-padrao" for="cidade">Cidade: </label>
+                        <input type="text" id="cidade" class="input-rua-bairro"> 
+                        <label class="label-padrao" for="estado">Estado: </label>
+                        <input type="text" id="estado" class="input-rua-bairro"> 
+                    </div>
+
+                    <div class="cep">
+                        <label class="label-padrao" for="valor-cep">CEP: </label>
+                        <input type="text" id="valor-cep" class="input-padrao"> 
+                    </div>
+                </div>
+                
+                <div class="user">
+                    <h2 class="user-create">Criação de usuário</h2>
+                    <br>
+
+                    <div class="login-user">
+                        <label class="label-padrao" for="username">Defina seu nome de usuario </label>
+                        <input type="text" id="username" class="input-login"> 
+                    </div>
+
+                    <label class="label-padrao" for="password">Defina sua senha </label>
+                    <input type="text" id="password" class="input-senha"> 
+
+                    <label class="label-padrao" for="password">Digite sua senha novamente </label>
+                    <input type="text" id="password" class="input-senha"> 
+                </div>
+            
+
+                        <input type="submit" value="Concluir o cadastro" class="botao-compra">
+
+            </form>
+            <br>
+            <br>
+        </main>
+        <footer>
+            <div class="roda-pe">
+                <p class="roda-texto">Endereço: Avenida Bernardo Sayão 176  <br>Centro, Ceres - GO, 76300-000 <p>
+                <p class="roda-texto">WhatsApp: (62) 98528-7539</p>
+                <p class="roda-texto">Telefone: 3397-1515<p>
+                <p class="roda-texto">Twitter: @Futurevision</p>
+                
+                <div class="tabela">
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Dia</th>
+                                <th>Horário</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Segunda-Sexta</td>
+                                <td>08h~20h</td>
+                            </tr>
+                            <tr>
+                                <td>Sabado</td>
+                                <td>08h~12h</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5">Horário de funcionamento</td> 
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+		</footer>
+    </body>
+</html>
